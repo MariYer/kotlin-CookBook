@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/salads"
+        android:enabled="true"
+        android:icon="@drawable/ic_salad"
+        android:title="Салаты"/>
+    <item
+        android:id="@+id/soups"
+        android:enabled="true"
+        android:icon="@drawable/ic_soup"
+        android:title="Супы"/>
+    <item
+        android:id="@+id/secondDishes"
+        android:enabled="true"
+        android:icon="@drawable/ic_second_dish"
+        android:title="Вторые блюда"/>
+    <item
+        android:id="@+id/desserts"
+        android:enabled="true"
+        android:icon="@drawable/ic_dessert"
+        android:title="Десерты"/>
+    <item
+        android:id="@+id/bake"
+        android:enabled="true"
+        android:icon="@drawable/ic_bake"
+        android:title="Выпечка"/>
+    <item
+        android:id="@+id/drinks"
+        android:enabled="true"
+        android:icon="@drawable/ic_drink"
+        android:title="Напитки"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pageMain"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/pageMainTitle"/>
+    <item
+        android:id="@+id/pageFilter"
+        android:visible="false"
+        android:icon="@drawable/ic_filter"
+        android:title="Поиск"/>
+    <item
+        android:id="@+id/pageAdd"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="Добавить"/>
+    <item
+        android:id="@+id/pageFavorite"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/pageFavoritesTitile"/>
+    <item
+        android:id="@+id/pageOther"
+        android:enabled="true"
+        android:icon="@drawable/ic_category"
+        android:title="@string/pageOtherTitle"/>
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipesListFragment">
+
+    <fragment
+        android:id="@+id/recipesListFragment"
+        android:name="com.mariyer.cookbook.ui.RecipesListFragment"
+        android:label="RecipesListFragment" >
+        <action
+            android:id="@+id/action_recipesListFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment"
+            app:popUpTo="@id/recipesListFragment" />
+        <action
+            android:id="@+id/action_recipesListFragment_to_recipeAddFragment"
+            app:destination="@id/recipeAddFragment"
+            app:popUpTo="@id/recipesListFragment" />
+        <action
+            android:id="@+id/action_recipesListFragment_to_recipeEditFragment"
+            app:destination="@id/recipeEditFragment"
+            app:popUpTo="@id/recipesListFragment" />
+        <action
+            android:id="@+id/action_recipesListFragment_to_otherFragment"
+            app:destination="@id/otherFragment"
+            app:popUpTo="@id/recipesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="com.mariyer.cookbook.ui.RecipeDetailsFragment"
+        android:label="RecipeDetailsFragment" >
+        <argument
+            android:name="recipeId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeAddFragment"
+        android:name="com.mariyer.cookbook.ui.RecipeAddFragment"
+        android:label="RecipeAddFragment" >
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeEditFragment"
+        android:name="com.mariyer.cookbook.ui.RecipeEditFragment"
+        android:label="RecipeEditFragment" >
+        <argument
+            android:name="recipeId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.mariyer.cookbook.ui.OtherFragment"
+        android:label="OtherFragment" />
+</navigation>

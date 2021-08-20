@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Кулинарная книга</string>
+    <string name="pageMainTitle">Главная</string>
+    <string name="pageOtherTitle">Прочее</string>
+    <string name="pageFavoritesTitile">Избранное</string>
+    <string name="dishTitleText">Название блюда</string>
+    <string name="productsCaptionText">Ингредиенты</string>
+    <string name="productsHintText">Список продуктов</string>
+    <string name="technologyCaptionText">Приготовление</string>
+    <string name="technologyHintText">Способ приготовления</string>
+    <string name="editButtonCaptionText">Изменить</string>
+    <string name="deleteButtonCaptionText">Удалить</string>
+    <string name="urlDishImageText">Url изображения блюда</string>
+    <string name="tagTitleHintTXext">Наименование тэга</string>
+</resources>

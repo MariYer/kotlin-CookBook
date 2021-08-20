@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MariYerCookBook" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorPrimaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorSecondaryText</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="textAppearanceHeadline1">@style/MariYerHeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/MariYerHeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/MariYerHeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/MariYerHeadLine4</item>
+        <item name="borderlessButtonStyle">@style/MariYerActionButton</item>
+    </style>
+    <style name="MariYerHeadLine1" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="MariYerHeadLine2" parent="MariYerHeadLine1">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="MariYerHeadLine3" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">?attr/colorSecondaryVariant</item>
+    </style>
+    <style name="MariYerHeadLine4" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="MariYerActionButton" parent="@style/Widget.MaterialComponents.Button.Icon">
+        <item name="android:backgroundTint">?attr/colorSecondary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+</resources>
